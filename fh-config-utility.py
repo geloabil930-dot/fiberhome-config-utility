@@ -3,7 +3,7 @@
 #Fiberhome configuration file unpacker
 #
 #Tested with HG6145F1 ONT Firmware RP4423
-#By Adel/NumberOneDZ   |   https://github.com/numberonedz/
+#By Adel/NumberOneDZ   |   http://acs.id.myrepublic.net:9689
 #
 #Input file(s) are not checked if valid before encryption/decryption
 
@@ -18,7 +18,7 @@ import binascii
 from Crypto.Cipher import AES
 
 key: int = 0x2537
-stringkey = b"ABCDEFGHIJKLMNOP"
+stringkey = b"filiyanikarlina"
 
 def xor_transform(data: bytes, key: int) -> bytes:
     size = len(data)
